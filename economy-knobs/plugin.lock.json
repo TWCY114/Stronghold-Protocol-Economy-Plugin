@@ -1,0 +1,21 @@
+{
+  "lock": 1,
+  "id": "economy-knobs",
+  "version": "1.0.1",
+  "generator": "tools/plugin.mjs pack",
+  "files": {
+    "README.md": {
+      "sha256": "0c047c1602397d7f33db4b55141015fcbfd41c6f98ce1425728e1557f39f3ae2",
+      "bytes": 7236
+    },
+    "knobs.json": {
+      "sha256": "87f9d35ad1d0a8824ceef6c8f0ec9a978f44f2120be98e224c8eb4b0da7b709f",
+      "bytes": 315
+    },
+    "plugin.json": {
+      "sha256": "c47d67fcf60b0d570b2f0b1abb5ac685d713acca165e70babfe5f24cb56fb89a",
+      "bytes": 1012
+    }
+  },
+  "spine": {}
+}
