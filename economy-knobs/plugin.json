@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/plugin.schema.json",
+  "manifest": 2,
+  "id": "economy-knobs",
+  "name": {
+    "zh": "数值调节：部署人数与资金",
+    "en": "Tuning: deploy cap and funds"
+  },
+  "description": {
+    "zh": "把部署人数上限、每回合发的资金（含初始资金）改成 knobs.json 里写的数值。只改数字，不加干员、不加规则，对局标记为非官方。",
+    "en": "Sets the deploy cap and the per-round income (including the first round) to the numbers in knobs.json. Numbers only: no new operators, no new rules; matches are marked unofficial."
+  },
+  "version": "1.0.1",
+  "app": ">=0.3.0 <0.5.0",
+  "api": 1,
+  "class": "content",
+  "scope": [
+    "room"
+  ],
+  "versions": [
+    "act2autochess",
+    "act2autochess@V2_1",
+    "act1autochess",
+    "act1autochess@V1_1",
+    "act3autochess@V3_1"
+  ],
+  "sourceLang": "zh",
+  "authors": [
+    "TWCY114"
+  ],
+  "license": "CC0-1.0",
+  "permissions": [
+    "data.patch"
+  ],
+  "data": [
+    "knobs.json"
+  ]
+}
